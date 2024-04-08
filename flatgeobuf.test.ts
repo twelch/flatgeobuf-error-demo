@@ -1,10 +1,6 @@
-import { fgbFetchAll } from "./flatgeobuf.js";
 import { deserialize } from "flatgeobuf/lib/mjs/geojson.js";
 import { takeAsync } from "flatgeobuf/lib/mjs/streams/utils.js";
 import { test, expect } from "vitest"
-
-import fetch from 'node-fetch'
-
 import { Rect } from "flatgeobuf/lib/mjs/packedrtree.js";
 
 test("flatgeobuf - external world fgb", async () => {

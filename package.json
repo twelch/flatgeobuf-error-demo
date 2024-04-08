@@ -10,8 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/geojson": "^7946.0.14",
-    "flatgeobuf": "3.31.1",
-    "node-fetch": "^3.3.2",
+    "flatgeobuf": "3.27.2",
     "stream-buffers": "^3.0.2",
     "web-streams-polyfill": "^4.0.0"
   },
