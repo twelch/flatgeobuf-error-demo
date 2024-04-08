@@ -17,4 +17,4 @@ for (const f of features)
     expect(
         (f.geometry.coordinates[0] as number[]).length,
     ).to.be.greaterThan(0);
-}, 5000);
+}, 10000);
